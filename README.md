@@ -13,4 +13,4 @@ Integrantes: Jenny Andrea Orozco Osorio, Max Daniel Pérez Quintero, Paolo Steve
 ## Reproducir
 pip: `pip install -r requirements.txt`  |  uv: `uv sync`
 
-Video de sustentación: <pega aquí el enlace>
+Video de sustentación:
