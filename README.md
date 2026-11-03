@@ -1,34 +1,16 @@
-# Proyecto Final Modelos II- Entrenamiento de modelos de Machine Learning para la clasificación de la intención de compra en comercio electrónico
-Modelo de clasificación binaria para predecir la intención de compra basado en el comportamiento de navegación de los compradores en línea. Machine Learning — UdeA 2026-02
+# Entrenamiento de modelos de Machine Learning para la clasificación de la intención de compra en comercio electrónico
 
-# Integrantes Grupo 12:
--Jenny Andrea Orozco Osorio
--Max Daniel Perez Quintero
--Paolo Steven Martinez Cardona
+Machine Learning — Universidad de Antioquia, 2026-02. Grupo 12.
 
-# [Link video sustentación]
+Integrantes: Jenny Andrea Orozco Osorio, Max Daniel Pérez Quintero, Paolo Steven Martínez Cardona.
 
-## Archivos importantes del repositorio
+## Archivos
+- `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: exploración y codificación, entrenamiento de los ocho modelos y reducción de dimensión (PCA y UMAP).
+- `online_shoppers.csv`: Online Shoppers Purchasing Intention Dataset (UCI, id 468).
+- `informe_E2_grupo12.pdf`: informe en formato IEEE.
+- `requirements.txt` / `pyproject.toml`: dependencias.
 
-`reporte proyecto final modelos 2.pdf`: Este es el archivo pdf donde se encuentra el reporte acerca del proyecto.
+## Reproducir
+pip: `pip install -r requirements.txt`  |  uv: `uv sync`
 
-`desarrollo-proyecto.ipynb`: Dentro de este notebook se encuentra todo el desarrollo que se realizó para el proyecto, está dividido en varias partes:
-
-- Al principio se importa el dataset y se realizó una exploración y encoding para las variables.
-- Luego se define la división de datos en train y test y se define la metodología de validación, con esto ya se entrena cada modelo usando un pipeline y una malla de hiperparámetros.
-- Finalmente se realiza la operación de reducción de dimensión para encontrar el valor de cada variable y se aplica tanto PCA como UMAP al dataset y se comparán los resultados contra la versión  con todas las variables.
-
-# Pasos para poder reproducir el notebook
-
-El único requisito para poder ejecutar el notebook es obtener las dependencias descritas en el archivo `requirements.txt` si se usa el gestor de paquetes pip y `pyproject.toml` si se usa uv, a continuación se dejan las dos opciones para obtener las dependencias.
-
-## Instalación de dependencias usando pip
-
-```
-pip install -r requirements.txt
-```
-## Instalación de dependencias usando uv
-
-```
-uv sync
-```
+Video de sustentación: <pega aquí el enlace>
