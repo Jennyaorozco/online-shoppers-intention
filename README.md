@@ -6,7 +6,7 @@ Integrantes: Jenny Andrea Orozco Osorio, Max Daniel Pérez Quintero, Paolo Steve
 
 ## Archivos
 - `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: exploración y codificación, entrenamiento de los ocho modelos y reducción de dimensión (PCA y UMAP).
-- `online_shoppers.csv`: Online Shoppers Purchasing Intention Dataset (UCI, id 468).
+- `online_shoppers.csv`: copia de referencia del dataset (UCI, id 468). El notebook la compara con los datos de UCI en la sección "Validación del archivo online_shoppers.csv", y el análisis utiliza los datos descargados con `ucimlrepo`.
 - `informe_E2_grupo12.pdf`: informe en formato IEEE.
 - `requirements.txt` / `pyproject.toml`: dependencias.
 
