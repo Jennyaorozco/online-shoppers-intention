@@ -9,9 +9,9 @@ Integrantes:
 
 ## Archivos principales
 
-- `Informe_final_Online_Shoppers_Intention.pdf`: informe final del proyecto en formato IEEE.
-- `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: notebook principal con el desarrollo, entrenamiento de modelos, evaluación, análisis de variables, PCA y UMAP. El notebook conserva las salidas de la ejecución final.
-- `Desarrollo_proyecto_Online_Shoppers_Intention.pdf`: exportación del notebook con código y resultados visibles.
+- `Informe_final_Online_Shoppers_Intention.pdf`: informe académico final del proyecto en formato IEEE.
+- `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: notebook editable que contiene el código fuente completo del proyecto y conserva los outputs de la ejecución final.
+- `Desarrollo_proyecto_Online_Shoppers_Intention.pdf`: versión estática del notebook con el código y las salidas obtenidas en la ejecución final.
 - `online_shoppers.csv`: copia del conjunto de datos utilizado, correspondiente al Online Shoppers Purchasing Intention Dataset de UCI.
 - `requirements.txt`: dependencias de Python utilizadas por el proyecto.
 - `pyproject.toml` y `uv.lock`: definición y bloqueo del entorno para reproducibilidad.
@@ -40,4 +40,4 @@ Abrir:
 
 `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`
 
-El notebook contiene el flujo completo del proyecto y conserva los resultados de la ejecución final.
+El notebook contiene el desarrollo completo del proyecto y conserva los resultados de la ejecución final.
