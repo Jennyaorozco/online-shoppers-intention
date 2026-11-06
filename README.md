@@ -9,6 +9,7 @@ Integrantes:
 
 ## Archivos principales
 
+- latex/: código fuente LaTeX y recursos necesarios para recompilar el informe final.
 - `Informe_final_Online_Shoppers_Intention.pdf`: informe académico final del proyecto en formato IEEE.
 - `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: notebook editable que contiene el código fuente completo del proyecto y conserva los outputs de la ejecución final.
 - `Desarrollo_proyecto_Online_Shoppers_Intention.pdf`: versión estática del notebook con el código y las salidas obtenidas en la ejecución final.
