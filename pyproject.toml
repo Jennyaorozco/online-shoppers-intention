@@ -1,7 +1,7 @@
 [project]
 name = "proyecto-final-modelos-2"
 version = "0.1.0"
-description = "Add your description here"
+description = "Clasificación de la intención de compra en comercio electrónico mediante modelos de Machine Learning"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
