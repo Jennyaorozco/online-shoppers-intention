@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos temporales de LaTeX
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Material anterior y figuras auxiliares del artículo
+Proyecto de Aula Modelos 2 Entrega 1.pdf
+guia_proyecto_del_curso_202602.pdf
+5_1_analisis_variables.png
+5_2_pca_varianza.png
+5_3_umap_2d.png
+5_3_umap_busqueda.png
+5_comparativa_reduccion.png
+fig_xgb_confusion.png
+fig_xgb_learning.png
+rf_confusion.png
+rf_curva_aprendizaje.png
+rf_curva_confusion.png
+xgb_curva_confusion.png
+lr_confusion.png
+lr_curva_aprendizaje.png

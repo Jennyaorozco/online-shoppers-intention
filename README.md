@@ -2,15 +2,42 @@
 
 Machine Learning — Universidad de Antioquia, 2026-02. Grupo 12.
 
-Integrantes: Jenny Andrea Orozco Osorio, Max Daniel Pérez Quintero, Paolo Steven Martínez Cardona.
+Integrantes:
+- Jenny Andrea Orozco Osorio
+- Max Daniel Pérez Quintero
+- Paolo Steven Martínez Cardona
 
-## Archivos
-- `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: exploración y codificación, entrenamiento de los ocho modelos y reducción de dimensión (PCA y UMAP).
-- `online_shoppers.csv`: copia de referencia del dataset (UCI, id 468). El notebook la compara con los datos de UCI en la sección "Validación del archivo online_shoppers.csv", y el análisis utiliza los datos descargados con `ucimlrepo`.
-- `informe_E2_grupo12.pdf`: informe en formato IEEE.
-- `requirements.txt` / `pyproject.toml`: dependencias.
+## Archivos principales
 
-## Reproducir
-pip: `pip install -r requirements.txt`  |  uv: `uv sync`
+- `Informe_final_Online_Shoppers_Intention.pdf`: informe final del proyecto en formato IEEE.
+- `Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`: notebook principal con el desarrollo, entrenamiento de modelos, evaluación, análisis de variables, PCA y UMAP. El notebook conserva las salidas de la ejecución final.
+- `Desarrollo_proyecto_Online_Shoppers_Intention.pdf`: exportación del notebook con código y resultados visibles.
+- `online_shoppers.csv`: copia del conjunto de datos utilizado, correspondiente al Online Shoppers Purchasing Intention Dataset de UCI.
+- `requirements.txt`: dependencias de Python utilizadas por el proyecto.
+- `pyproject.toml` y `uv.lock`: definición y bloqueo del entorno para reproducibilidad.
 
-Video de sustentación:
+## Entorno
+
+El proyecto fue ejecutado con Python 3.13.4.
+
+## Instalación
+
+Con pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+O con uv:
+
+```bash
+uv sync
+```
+
+## Ejecución
+
+Abrir:
+
+`Desarrollo_proyecto_Online_Shoppers_Intention.ipynb`
+
+El notebook contiene el flujo completo del proyecto y conserva los resultados de la ejecución final.

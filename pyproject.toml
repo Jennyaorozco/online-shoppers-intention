@@ -3,7 +3,7 @@ name = "proyecto-final-modelos-2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "certifi>=2026.2.25",
     "imblearn>=0.0",
